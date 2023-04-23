@@ -1,4 +1,4 @@
-::StoryData
+:: StoryData
 {
     "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
     "format": "Harlowe",
@@ -6,7 +6,7 @@
     "start": "Start"
 }
 
-::StoryTitle
+:: StoryTitle
 My test story!
 
 :: Start
