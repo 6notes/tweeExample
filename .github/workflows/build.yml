@@ -20,6 +20,7 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
+          mkdir -p ${{vars.OUTPUT_DIRECTORY}} && touch ${{vars.OUTPUT_DIRECTORY}}/${{vars.OUTPUT_FILENAME}}
           tweego ./passages -o ${{vars.OUTPUT_DIRECTORY}}/${{vars.OUTPUT_FILENAME}}
 
       - name: Deploy to Pages
