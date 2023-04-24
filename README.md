@@ -19,3 +19,8 @@ It also demonstrates compiling multiple files in the `passages` directory.
   - Going to `Settings -> Pages -> Build and deployment` and changing the branch
     to `pages` or whatever your `publish_branch` is in your workflow action
     `peaceiris/actions-gh-pages@v3` section.
+
+# Testing changes locally
+
+You can use `mkdir -p ./dist && tweego -o ./dist/index.html ./passages` then
+open the `index.html` file to view your changes.
