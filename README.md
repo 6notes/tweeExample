@@ -16,6 +16,6 @@ It also demonstrates compiling multiple files in the `passages` directory.
     repository variables:
     - `OUTPUT_DIRECTORY` with the value of `dist`.
     - `OUTPUT_FILENAME` with the value of `index.html`.
-  - Going to `Settings -> Pages -> Build and deployment` and change the branch
+  - Going to `Settings -> Pages -> Build and deployment` and changing the branch
     to `pages` or whatever your `publish_branch` is in your workflow action
     `peaceiris/actions-gh-pages@v3` section.
